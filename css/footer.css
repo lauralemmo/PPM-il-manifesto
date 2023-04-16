@@ -1,0 +1,45 @@
+#footer {
+    background-color: #f6e7d4;
+}
+#footer h6, #footer h2, #footer p, #footer-menu h6, #footer-menu a:not(#btn-abbonati):not(#btn-accedi) {
+    color: #333;
+}
+#footer-menu h6 {
+    margin-top: 30px;
+}
+#footer img {
+    width: 100%;
+    padding-top: 100px;
+}
+#footer-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+#footer a, #btn-accedi{
+    border: 1px solid #bf2c2c;
+    color: #bf2c2c;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+#footer a:hover {
+    color: white;
+    background-color: #bf2c2c;
+}
+#abbonati-accedi {
+    padding: 25px;
+    background-color: #f5f5f5;
+}
+#btn-abbonati {
+    border: 1px solid #bf2c2c;
+    color: white;
+    background-color: #bf2c2c;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
+#footer-login {
+    margin: 20px 0px 50px 0px;
+}

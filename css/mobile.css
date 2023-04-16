@@ -1,0 +1,11 @@
+/*Adattamento header per finestra ridotta (anche mobile)*/
+@media (max-width: 1000px) {
+    #info {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    #menu {
+        display: none;
+    }
+}
