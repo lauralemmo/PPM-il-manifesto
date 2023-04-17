@@ -43,3 +43,20 @@
 #footer-login {
     margin: 20px 0px 50px 0px;
 }
+
+#info-footer{
+    height: 32px;
+    width: 100%;
+}
+
+#info-footer hr, #footer-menu hr {
+    margin: 0px;
+}
+
+#info-footer p {
+    margin: 0px;
+}
+
+#footer-title {
+    color: #bf2c2c;
+}
