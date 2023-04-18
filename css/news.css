@@ -8,6 +8,13 @@
     width: 100%;
 }
 
+.image-annuncio img{
+    object-fit: cover;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .row h6 {
     text-transform: uppercase;
     color: #bf2c2c;
@@ -111,6 +118,7 @@
 .div-verde {
     background-color: #D4E6E8;
     height: 100%;
+    height: fit-content;
 }
 
 .ad ul {
