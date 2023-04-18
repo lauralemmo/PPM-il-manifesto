@@ -40,6 +40,9 @@
     border-radius: 5px;
     padding: 10px 15px 10px 15px;
 }
+#btn-abbonati:hover {
+    background-color: #992323;
+}
 #footer-login {
     margin: 20px 0px 50px 0px;
 }

@@ -91,40 +91,10 @@
     background-color: #F7F1F8;
 }
 
-.ad h3 {
-    font-size: 23px;
-    line-height: 28px;
-    font-weight: 700;
-    font-family: Inter var,Inter,sans-serif;
-    padding-top: 22px;
-    padding: 15px;
-}
-
-.ad img {
-    width: 100%;
-}
-
-.ad p {
-    font-size: 14px;
-    font-family: Inter var,Inter,sans-serif;
-    line-height: 21px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0;
-    text-align: left;
-    padding: 15px;
-}
-
 .div-verde {
     background-color: #D4E6E8;
     height: 100%;
     height: fit-content;
-}
-
-.ad ul {
-    font-family: Georgia,Times,Times New Roman,serif;
-    font-size: 16px;
-    line-height: 130%;
 }
 
 .image-left img{

@@ -21,11 +21,76 @@
         <link rel="stylesheet" href="css/store.css" type="text/css">
         <link rel="stylesheet" href="css/body.css" type="text/css">
         
+        <script>
+            function menuOpen() {
+                document.getElementById('dropdown-menu').style.display='block';
+                document.getElementsByTagName("BODY")[0].style.overflow='hidden';
+            }
+            
+            function menuClose() {
+                document.getElementById('dropdown-menu').style.display='none';
+                document.getElementsByTagName("BODY")[0].style.overflow='visible';
+            }
+        </script>
+        
     </head>
     
     
     
     <body>
+        <!-- Comparsa menu al click del bottone-->
+        <div id="dropdown-menu">
+            <div id="close-bar">
+                <img src="img/favicon.png">
+                <button type="button" class="btn-close" aria-label="Close" onclick="menuClose()"></button>
+            </div>
+            
+            <div id="dropdown-content">
+                <div id="menu-login">
+                    <a id="btn-abbonati" href="#">Abbonati</a>
+                    <a id="btn-accedi" href="#">Entra</a>
+                </div>
+                
+                <div id="first-menu">
+                    <div class="row">
+                        <div class="col-sm-6 col-6">
+                            <a href="#">Edizione di oggi</a><br>
+                            <a href="#">Ucraina</a><br>                     
+                            <a href="#">Immigrazione</a><br>
+                            <a href="#">Usa</a><br>                      
+                            <a href="#">Cultura</a><br>                     
+                            <a href="#">MdM</a><br>                   
+                            <a href="#">Newsletter</a><br>
+                            <a href="#">La membership</a><br>
+
+                        </div>
+                        <div class="col-sm-6 col-6">
+                            <a href="#">Editoriali</a><br>
+                            <a href="#">Politica</a><br>
+                            <a href="#">Internazionale</a><br>
+                            <a href="#">Commenti</a><br>
+                            <a href="#">Visioni</a><br>
+                            <a href="#">Archivio storico</a><br>
+                            <a href="#">Il collettivo digitale</a><br>
+                            <a href="#">Abbonati</a><br>
+                        </div>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <form id="search-form">
+                    <input type="text" placeholder="Cerca" value="">
+                    <button type="submit">
+                        <svg width="1em" height="1em" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 2.5a7.5 7.5 0 0 1 5.964 12.048l4.743 4.745a1 1 0 0 1-1.32 1.497l-.094-.083-4.745-4.743A7.5 7.5 0 1 1 10 2.5Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z" fill="currentColor"></path></svg>
+                    </button>
+                </form>
+                
+                <hr>
+            </div>
+        </div>
+        
+        
         <div id="info">
             <div class="container" id="info-box">
                 <div>
@@ -50,14 +115,14 @@
         
         <div class="container">
             <div id="header">
-                <button id="menu-btn" onclick="document.getElementById('dropdown-menu').style.display='block'">
+                <button id="menu-btn" onclick="menuOpen()">
                     <img id="menu-icon" src="img/menu.png">
                 </button>
                 <img id="logo" src="img/logo.svg">
             </div>
         </div>
         
-        
+
         <hr id="header-line">
         
         <div class="container" id="menu">
@@ -236,9 +301,9 @@
                 </div>
                 
                 <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="div-verde ad">
+                    <div class="div-verde pubblicita">
                         <img src="img/pubblicita2.jpg">
-                        <h3>Abbraccio</h3>
+                        <h2>Abbraccio</h2>
                         <p>39,00 €</p>
                         <p><b>Sostieni i progetti del manifesto con questo abbonamento speciale.</b></p>
                         <p>Digitale 3 mesi + Membership 3 mesi</p>
@@ -693,15 +758,15 @@
                 <h4>Fotofinish</h4>
                 
                 <div class="col-md-6 p-2">
-                    <img src="img/fotofinish1.jpg">
+                    <img src="img/fotofinish6.jpg">
                 </div>
                 <div class="col-md-3 p-2">
-                    <img src="img/fotofinish2.jpg">
-                    <img src="img/fotofinish4.jpg">
-                </div>
-                <div class="col-md-3 p-2">
+                    <img src="img/fotofinish7.jpg">
                     <img src="img/fotofinish8.jpg">
+                </div>
+                <div class="col-md-3 p-2">
                     <img src="img/fotofinish9.jpg">
+                    <img src="img/fotofinish10.jpg">
                 </div>
             </div>
         </div>
@@ -1067,8 +1132,9 @@
             </div>    
         </div>
         
-        
-        
+        <br><br>
+        <hr>
+        <br><br>
         
         
         
