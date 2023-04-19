@@ -40,3 +40,9 @@
     }
 }
 
+@media (max-width: 991px) {
+    .right-vertical-line {
+        border-right: 0px;
+    }
+}
+
